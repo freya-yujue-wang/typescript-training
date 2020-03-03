@@ -1,7 +1,8 @@
+//1.hello world
 console.log("hello world!");
 console.log("Coding Gurus! " + "Time for some fun!");
 
-//variable
+//2.variable
 let found: boolean = true;
 let grade: number = 88.6;
 let firstName: string = "pupu";
@@ -19,7 +20,7 @@ console.log("The grade is:" + grade);
 console.log("Hi " + firstName + " " + lastName);
 console.log(`Hi ${firstName} ${lastName}`);
 
-//loops and array
+//3.loops and array
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
@@ -51,7 +52,7 @@ for (let tempSport of sportsOne) {
     }
 }
 
-//growable arrays
+//4.growable arrays
 let sportsTwo: string[] = ["Golf", "Cricket","Tennis"];
 sportsTwo.push("Baseball");
 sportsTwo.push("Football");
